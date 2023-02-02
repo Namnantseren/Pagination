@@ -1,0 +1,39 @@
+.firstAndLast {
+    border: 0;
+    height: 49px;
+    background-color: white;
+    color: gray;
+}
+
+.firstAndLast:active {
+    background-color: rgb(248, 243, 243);
+    border-bottom: 2px solid red;
+    color: red;
+}
+
+.firstAndLast:hover {
+    background-color: rgb(248, 243, 243);
+    border-bottom: 2px solid red;
+    color: red;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.pagination-width {
+    height: 50px;
+    margin: auto;
+}
+
+.topandbottom_border {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    width: 579px;
+    margin: auto;
+}
