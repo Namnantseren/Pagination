@@ -1,29 +1,9 @@
-.firstAndLast {
-    border: 0;
-    height: 49px;
-    background-color: white;
-    color: gray;
-}
-
-.firstAndLast:active {
-    background-color: rgb(248, 243, 243);
-    border-bottom: 2px solid red;
-    color: red;
-}
-
-.firstAndLast:hover {
-    background-color: rgb(248, 243, 243);
-    border-bottom: 2px solid red;
-    color: red;
-}
-
 .flex {
     display: flex;
 }
 
 .justify-center {
     justify-content: center;
-    /* align-items: center; */
 }
 
 .pagination-width {
@@ -35,5 +15,19 @@
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
     width: 579px;
+    height: 50px;
     margin: auto;
+}
+
+.page {
+    color: #cccccc;
+    height: 500px;
+    max-width: 1440px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+.before-PageBtn {
+    margin-right: 15px;
 }
