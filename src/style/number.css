@@ -7,13 +7,27 @@
 }
 
 .paginationBtn:active {
-    background-color: gray;
+    color: red;
+    background-color: rgb(229, 221, 221);
+    border-bottom: 2px solid red;
 }
 
-.paginationBtn:hover {
+.InActiveBtn:hover {
     background-color: rgb(248, 243, 243);
     border-bottom: 2px solid red;
     color: red;
+}
+
+.ActiveBtn {
+    color: red;
+    background-color: rgb(229, 221, 221);
+    border-bottom: 2px solid red;
+}
+
+.InActiveBtn {
+    color: rgb(211, 208, 208);
+    background-color: white;
+    border: 0;
 }
 
 .nextBtn  {

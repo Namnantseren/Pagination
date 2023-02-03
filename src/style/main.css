@@ -14,7 +14,7 @@
 .topandbottom_border {
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
-    width: 579px;
+    width: 520px;
     height: 50px;
     margin: auto;
 }
@@ -24,10 +24,20 @@
     height: 500px;
     max-width: 1440px;
     width: 100%;
-    justify-content: center;
-    align-items: center;
   }
 
 .before-PageBtn {
     margin-right: 15px;
+}
+
+.ActiveBtn {
+    color: red;
+    background-color: rgb(229, 221, 221);
+    border-bottom: 2px solid red;
+}
+
+.InActiveBtn {
+    color: rgb(229, 221, 221);
+    background-color: white;
+    border: 0;
 }
